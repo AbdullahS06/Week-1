@@ -17,15 +17,15 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("Peter Rabbit", "member 1", "member 2", 
-           "member 3", "member 4"),
-  github_username = c("mcgregors-garden", "username 1", "username 2", 
-                      "username 3", "username 4"), 
-  colour = c("powderblue", "colour 1", "colour 2", 
-             "colour 3", "colour 4"),
-  hobby = c("Hopping", "hobby 1", "hobby 2", 
-            "hobby 3", "hobby 4"),
-  favourite_number = c(2, NA, NA, NA, NA)
+  name = c("Chinedut", "Tommy", "Aaron", 
+           "Luianda", "Abdullah"),
+  github_username = c("Chinedut26", "Tommys262550", "Aaron2405", 
+                      "LuiandaMadwa", "AbdullahS06"), 
+  colour = c("Purple", "Red", "Red", 
+             "Blue", "Red"),
+  hobby = c("Running", "Football", "Running", 
+            "Music", "Music"),
+  favourite_number = c(5, 8, 3, 6, 7)
   )
 
 team_data
@@ -47,7 +47,7 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+The plot shows the usernames along with their favourite colour and number
 
 ### Exercises 19
 
@@ -59,7 +59,7 @@ p1 + labs(x = "Insert text here",
           title = "Insert text here")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+Labs() modifys the "x" and "y" axis
 
 ### Exercise 20
 
